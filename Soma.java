@@ -5,19 +5,19 @@ public class Soma {
 	
 	public static void main(String[] args) {
          // Variáveis
-		double nome,idade,som;
+		double a, b, som;
 		 //Instaciar classe Scanner
 		Scanner ler = new Scanner(System.in);
 				
-		 // Entrada de dados
-				System.out.println("Informe o seu nome: );
-		= ler.nextDouble();
+		 //Entrada de dados
+				System.out.println("Valor 2 :" );
+		a = ler.nextDouble();
 		
-		System.out.println("Informe a sua idade);
+		System.out.println("Valor 1 :" );
 		b = ler.nextDouble();
 		
 		//Processamento
-		som = nome+dade
+		som = a + b;
 		//Sáida
 		System.out.println("O resultado é : " + som);
 		ler.close();
